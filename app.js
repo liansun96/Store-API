@@ -7,7 +7,7 @@ const errorHandlerMiddleware = require("./middleware/error-handler");
 const productsRouter = require("./routes/products");
 const connectDB = require("./db/connect");
 
-//rotues
+//routes
 app.get("/", (req, res) => {
   res.send('<h1>Store API</h1><a href="/api/v1/products">Products route</a>');
 });
